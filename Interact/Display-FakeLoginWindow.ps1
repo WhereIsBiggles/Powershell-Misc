@@ -21,8 +21,6 @@ http://www.twitter.com/whereIsBiggles
 
     $fakeLoginWindowFile = "$env:temp\fake_login_window.png"
 
-     $fakeLoginWindowFile = "E:\Bot_Tmp\images\outlook_login.png"
-
     if (-not (Test-Path $fakeLoginWindowFile))
     {
         Write-Error "Cannot find '$fakeLoginWindowFile'"
